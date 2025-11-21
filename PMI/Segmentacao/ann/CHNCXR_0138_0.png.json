@@ -1,0 +1,28 @@
+{
+    "description": "",
+    "tags": [],
+    "size": {
+        "height": 512,
+        "width": 512
+    },
+    "objects": [
+        {
+            "id": 0,
+            "classId": 0,
+            "description": "",
+            "geometryType": "bitmap",
+            "labelerLogin": "",
+            "createdAt": "2020-12-11T15:26:06.364Z",
+            "updatedAt": "2020-12-11T15:26:44.677Z",
+            "tags": [],
+            "classTitle": "Lungs",
+            "bitmap": {
+                "data": "eJx11H9cy3kcB/DP5/vd+q6t1R6p3Yx+PYqLbbU6FWq1aDedLsuSelCWejhHkoSK8i1CehROmKJNOySW+XE9JOrrx9keCUNaST/uaKYfl1sdI7XLP/ff/fF6PF9/vv95v4ol0WI6lU0FANAjl0QsBwABXwPRKR7Xf98whY0kKlY0pdVqPdup6J5qMGt5tBQIjR3rACDpIiPCY7NPDb/6MXPUm2Eji4nN43Y+LlPxxSf3RDnPLFWZKNxrS0TSYk8aI4yudttZ23sMHdAyHX/pj6+aTS1adEbi7fQVmYpbV8Wj2TMemosuWJfyHvp74v3Bitf/DGGmpP1hT8RfMJPrg9/Vh+6jmsR+f1bAJ7A6511U69Vdlw69QOWckpG795INDsSOtmvrOx6hlpoVXjFPawQDjfUqW3HpBOLSdUSkerCSaN9QrQvpI4QhQ2vJISx+TMFqaFl3QBGjBtmhZst0BcgOPsjSc0BP2VVShx8RAjFS+7HJmeQsu5DBO9Ny81ouO70XuvekpaH4zmdxRxBCEOkE+6q8FOTtdhI/Igjc4Ay8NfuQuRR+vGxVfjTELvxk63781zPO+e59UmIxiIHC8av3kbkJoSTh0fCVQN+U5ij8gLzj2ENdqmwFUQ/LyNv3uMI6us6JcRr/ARMgxkDlRbwZ8Ocw0pm6VCG6lLp3JzM1cJg5QvpQIuYNd5bnNIXiIwUZ8V3P/VCTj3AIOgd2PocNWPVsA9Lmaqp8Mt2dbWigWdhgzPXAB14YiErEF6CUrgqMNE+TCvKClYXn2j2KTyM6Dsyn6kd9Il/Z62YSl0mxtPWnWX9hYyVQMZ2wB2tZFhMWRbKshKkdxh43+SCRSVX6bxqxm/e4zpeq06i3pAdjuluwmXWgrLhUKmWaGoZaEMGJxBxib6kn3uQiSVa5gDfDQu3JWQ7EsidcB01XgS1drrwSZ0WAL2AvtPmI/jkBc/j8t2DHXGWPmx5DfQxlNsbMnM9xOWjrOHh4B7/tkl2/GMYhYyzNbY9GWkfPi2oYYJNmYErwE2CBjeU1MO3OLwFuqDFNyyDSsbs/D/yBd+W2igAHyd2oTgxRUGo8iHRB5kZ10jgTbnFgZJFm3MgdXkVS9p73Ow+fT+ANqKXlox3yuQgf2NY7QWS6Tp1yGBVmDRXCS3YULiMrwZuhCNfjheDvzk5xHkLL4GrUVTPQ2RT3aHLry9BesukeUHDyItrBC7qXrzNd1wV1Qe+f4rXw1oyMLd8G28m3ngWyRajR230ThrJpNYHKcNyF/KafODVG5RK+2K5njdH7MgWufC3yLsCHLfcBx1MKukXmzY289m/CWoOpfB7eTOs7iM9ndSQmTyLfMd+LhEmk8rDim24SvvJLZCwyZOSx9QJiPwtkXZ8cT1DRUo6irz4OhoPRMUGQFlpH3zYXTQZKXkor8DlpTUlECiwhVaS0IS1H1bZp44CqWaI0N2ylyUo9AGJPKx9MxrVIHd1pjdfGS5BSk59Kg7XWPAlQfia3OGucCQOwBUY2AfCLcHBhG758zZjjBuFv+d2HnZXb9hSth1tRee00prly1k376yOV07aB7BF3qn4FyBhX3UeqqZZASSXfLmtpEFsfQECQgHIBo19lj3Yve8TZz+sY8YzF14qdpDaTENYOapP9j8QLZVO/IpSeq7BCWTo2j236dLJ6dds46kijHCLNZ8riZRVXiN54/L+R+R/Kr5ndWuUhMbsNm79uIYgURUfULZIV/gv+vSE8",
+                "origin": [
+                    0,
+                    0
+                ]
+            }
+        }
+    ]
+}

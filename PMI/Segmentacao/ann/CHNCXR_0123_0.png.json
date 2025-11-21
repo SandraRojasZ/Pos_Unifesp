@@ -1,0 +1,28 @@
+{
+    "description": "",
+    "tags": [],
+    "size": {
+        "height": 512,
+        "width": 512
+    },
+    "objects": [
+        {
+            "id": 0,
+            "classId": 0,
+            "description": "",
+            "geometryType": "bitmap",
+            "labelerLogin": "",
+            "createdAt": "2020-12-11T15:26:06.364Z",
+            "updatedAt": "2020-12-11T15:26:44.677Z",
+            "tags": [],
+            "classTitle": "Lungs",
+            "bitmap": {
+                "data": "eJx11FtQE3cUBvD/7pIAyUISzAiokatApQRQrHiDjRJYQGIiTAMYyCpSGAWKvRGFaTboQLGAZQSK1qlbrSgiFGFUQANrBUEFpeiAElIXi1zUSLTViYNCY1/alz6c+Z2H7+2bc0rksigHziIOAMAhGo/YCgAM3g+EWLl9MbLNClu+OUFqdX5+/tSD40brBn2xVRYPsIn7nwBg4xsdIUnQHDMZYsvH/fhsYuXSkn5cRS1rDP62ovU+bskMO3iISQ+IkeYpa1s0a75xfzv1Y4m2SjaofuAS5NNSJPGswL2dSiL+JafccayspZPjIZh7Hkq6JaUayvetn1hg9+dF0yYKEnsXU4evXe06jX3sZTrTM7e9DAyuKd3CBPyuolMGa4QDN8aIHfHMmH4BUCJhdhium4Tipt71oL3J0nVrkYJ9CkOwq3n01+ETsbqGpLHdv52m62N8xucM6lFSWdWHE31WzuFYBhm3+n3ybPyz9Nx88HqFBbWMRMIeCCyQu/Kzt/hZg5n5HeyBWXojawhNVJBrBPSF9Ms8ZmQFYEaaDba5cRUOGlAThAHyDQeT0IUgUkx5EHo4iE9Oo9XcUDv6L5+PGA9wV3StDpxYdxaWhxAHdNMF7jk3uvWCu8f7f6JPGrtmPryE+DtYQtnmvRcKzwfzyyGVwh+ljCJ/coNTZl4Ph8DJ3SDelmrDVkT0iUBDuC/dE0xjcAHLLHRPAFHg3jQ9CK4vIuzJRmgihr4H4kAWfMXNRl579LkQEwAtR74eUtleqZpp1g31v/CmXg5J6WS4YXY2kNMV17ZKgusef0WIdUOoF6u254fKjOr9ujGU8ATbyvKQbfUnwZiceNpug4m456KgA3W71kqSZBD9rsX+ZgFCOBHtUFMcFfyzkdf6EGSOjjwB21eZ8kD78hdfk7n5nW7mSaQMOuWIZtEPHVsN0C1Wn4nsENFa48InZLvIRYzcW8rwbGqN+limnt4DGVgRf/guPCPuflc6Aac58403zncW4hntL5KRxeYN9KKq1qVEScxmXpAyFqOfwWk8vjbhFYhW2H4nW7ae0xRsTg18wkJFuLI/RJR42HP001tORPRBobPLFH2seq+Y6aUTAp+yUdfemyHOLnVYWIBSRVwud2c8KU1Hi4rO1WUE3E6kEpEMJIbMxiXIbh4joAtZN+PNl5BydmV9gJ37EvtKLuv1DqqgOWgSmc7Srl3SO79yp1tiWPEvbYstbwSO5gdFKcMflKonc5YrIftzd75P37QRvjPc8Yxr0vq4Ihb9SwSEyTs1Qmz46J3HQF4KU68ihaBhnRrB1A1RKem+7NcKGhUecgF+Uoh5FM5O9MC8yCNcbDa8+Es+qSX2sJoKyWyEC5ONIW41EiITWYDW+ICZ+VB7u4EAbDUZnkzuAiaNmGjD0u5nZ4zDB7lvz0h9mFYsbTQ76nOom1U0D+RHwlPRfzpBnQdUxPsQmsWoxWaes+U6a+4RrP0M+u/l/h/j2oqZnQrRvtNX9Rrr/wDRUllE40ai8G9jwd26",
+                "origin": [
+                    0,
+                    0
+                ]
+            }
+        }
+    ]
+}

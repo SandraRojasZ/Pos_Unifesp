@@ -1,0 +1,28 @@
+{
+    "description": "",
+    "tags": [],
+    "size": {
+        "height": 512,
+        "width": 512
+    },
+    "objects": [
+        {
+            "id": 0,
+            "classId": 0,
+            "description": "",
+            "geometryType": "bitmap",
+            "labelerLogin": "",
+            "createdAt": "2020-12-11T15:26:06.364Z",
+            "updatedAt": "2020-12-11T15:26:44.677Z",
+            "tags": [],
+            "classTitle": "Lungs",
+            "bitmap": {
+                "data": "eJxt1FtQE3cUBvD/7uZmiAvYBCMSsqVoY2Ek0yIEFFlsgFBpGoNSbRNcpeUmksyAoKiw0FSbARk7aIuF0oC02JsX7giRVSOICslUBmIh3CuloGaKdASENH3rdPpw5vc9nDlv39Er5NGr2Z5sAMDqGJlUCQAM/hkIcdLbFNXqhKGI3R3p1OFwfPvoG5szQVlKeRzAH1uTAKCtj5FG7D5a8WRwZ3YNxmUQISi/jlanG4Y+7JYbcjqVewtvez9PDY0xcltdI4suP19Orpr0O1/08YWDfN81eqnP57L/8OWl8DPLmZWeS1PfqbVCvGRpaca8sjCQfjovY+5GNja14YXLtEKqXgwfnquLLlht9dPmvzc3P6UJGr1CGbvohOvs0ScO/l0/KoxVD8d36bps5JLYqjSVRmCJtqe7WG4h1Atwq3E6T6FHUmhlEjIC9IutW0aDoRXIVKff08PDNFDSxRaG5LwOrnjnl0MG5QcyDlsXjx1UB1w7RAzRJFxZ4Oguorpgn2Nw6TDMRS2lB0zQ9S+2oJbGdC25OXInOOCqKN9PeEG+bDsNL0ncCNK8eHTFhAzuk5T4umnxUtwEvQ2nMq/yv1rFTPcblZGXfB0w2HW/1V1xhLix/8VHKYwoTyo57i3DOtwKtRxLNIF6Wsagt4tvTf5WYoaqPpZGtzyalMMetYyv310hMFX5fBUIFWQK9vZeE5Dj8J1534HBHHA/zGUrMNM6H4JgzRmx4VXqKeK9IRGlr+HwWZdshRo4bT8cBBXBFwhqB1Xttggy+otVXAGrLB7PYT7+lFTtCWOJOzIrWJxt2G3ySnC4u9bL0C4Ssq37jgspLfln4pgCF67ShYGZTVEL3dkiQwIiNsPjwYx0aPIZ/UFAy3Qk5EipXAQlkGQjGK42kGFuQOOmoLKYSWtj7XPLKnLuMyGda1nZRhCg0kWnJkdQf/Nfs2BiM5XNjPUztCHFjtBxMOGolIgt+PZ19p/JGdQa7zwQSD830ooyO5+Sf6CcHrLDeLaSfi7Hp4fcul7UEXoFtPFEGlE5NJdFvBFksRW4544FGobi5s3Ib6+cne8eZptuQyPslmSkauhWNvPBDLIowp7QO+Nx43bxy3xcdXg8ICD2CMW6ylDmEEZ1PjhRhdbEY0Hw+eSMQdLCqrm3MZZYbM/ruufBZvqfmKWDbWubWsxMmFXsDxY6Al3LCLzeuUd0lPmAaMFNo1KBNcGyfA9yRdv7JtnH1kUBB++Hi9DL2vbwqIZfBUfYp5pntgOyVn5TWy5n4c87EvoIMgEb0xI+0CeInhaIStcoJG4yAod6c18/DVXw3vdAJEWdHI6935jKkXEIE3kXcBnixUSeWeX4nSCbi/tuAc2q2lMFerqIL/MHP+29o0ZnccwOELh9RdjIAkMb+tmw9Uf9yZPtvOORDQj5vTt/uJW0Xc1t83wosMRpiFnU7seAla+JA5FntoLmAWZeA/y/3f0XIZvyITH3mhJtOHjd+TNATKRcenkHUfg32B7SfQ==",
+                "origin": [
+                    0,
+                    0
+                ]
+            }
+        }
+    ]
+}

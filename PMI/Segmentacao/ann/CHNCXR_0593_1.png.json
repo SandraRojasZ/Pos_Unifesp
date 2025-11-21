@@ -1,0 +1,28 @@
+{
+    "description": "",
+    "tags": [],
+    "size": {
+        "height": 512,
+        "width": 512
+    },
+    "objects": [
+        {
+            "id": 0,
+            "classId": 0,
+            "description": "",
+            "geometryType": "bitmap",
+            "labelerLogin": "",
+            "createdAt": "2020-12-11T15:26:06.364Z",
+            "updatedAt": "2020-12-11T15:26:44.677Z",
+            "tags": [],
+            "classTitle": "Lungs",
+            "bitmap": {
+                "data": "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",
+                "origin": [
+                    0,
+                    0
+                ]
+            }
+        }
+    ]
+}

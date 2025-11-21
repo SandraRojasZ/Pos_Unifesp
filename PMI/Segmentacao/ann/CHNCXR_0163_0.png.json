@@ -1,0 +1,28 @@
+{
+    "description": "",
+    "tags": [],
+    "size": {
+        "height": 512,
+        "width": 512
+    },
+    "objects": [
+        {
+            "id": 0,
+            "classId": 0,
+            "description": "",
+            "geometryType": "bitmap",
+            "labelerLogin": "",
+            "createdAt": "2020-12-11T15:26:06.364Z",
+            "updatedAt": "2020-12-11T15:26:44.677Z",
+            "tags": [],
+            "classTitle": "Lungs",
+            "bitmap": {
+                "data": "eJx11GtUk3UcB/D/c9mFsY2Lw00l2LgaMmNmCAXsEcZlBmOICB5mPHCSMoxACQlUniXpMNRpUCLzsIqLiQ5IhXlhPseDOhWJIHNTQESBifM0jjcgcC1f9aYXv/P5vfl+3/1+lXJZPIuxmAEAYEkTJGsBgMG/AyEOejvizjmgyhPXxTq02+2N5vohxwYVrZWlAmzclAsA6ieVrF5Xonk6mFTawHel4osWBofD8Q8+LVl5YNRNkXsosLdoy4KU40HBNbImwzGfL5Cgwrla3XcJfu6VEp9Db9gabJi4vWrAeKK1+fFuSqK9v1xoNuizBa+hqpYrN8Yt8fOPIzcne+BRytas25v30gvfxr0/jGHZwtH7p4ar6AIBJdQ32qgof9wh+0CiWgPVBaf8VI9puDt/lVQmKSf6E2iDp2+oz0zsZ0+jGXdTRfsEm59fTvPsSfXiHX/xQ9e09WxyZHQixPf+NvTUFEUd/3sjuaLhecrgnB9yJBTzg39EmRI8CPI9ZQiCu0+v5kKjSnwfmMLaYgm991DT5Vc+heufKfB7jzxcpWQ3ygFMDv4lr2enjsIEVZ2gGDl5raJoRdjyEYgoCqXgzAQSBdUDKU+JAh8svP7FDFncyRdNIPlnfUaJroW8AvIpuAmKP/cBXuhVX+IXBKa7BlREap8QTih9AcyVl+FdjHrXXkrUyxY5tg06TXs5YG0kYokSlP4JjFD179l2uY+kt8QxbemIZcZTBxSsEAF4X1AA1SDWzzxCBQ1kZqRWBOpc88EsQpQJ+ZeJr0R4D9gNTA1LAQVr2lQHYnI3lYHaO+XLcBlFLU4KRKb8oUcHf74JzXZC88noH9naS6iKRehgm50SMugUnGfGpjeRdPjBYtK+gzzGINM3tDJM67FZ9tUkspoSpHv2kUef2FveDNsaJ1vgtxYZh9c86U9tYI2cIx7CLxPBxeF3oD3OlnuE9dZF4Q7UchdROk/fnjQ4jegJf9iceeKaUpTVRzV1Da11Ppm8x4RqDe7d1C1udAW5ijbohu+UXqdak4hlsKNknBiFN5bxC6Byl5GbjvqOcFxPvmqPWAlzuJYETO/+JuTJbbsFxUCHZ+su5J4P1x5FNka2mbeaY6eiMSXRSg3NPD9OjMFNiy3J1JVsSx5Uk8UC37C9qOeXgG3L2y485BxFXufj2//+nqWf691wxcBrK3PPrkPGS0l/Ui/8U8y2dF45wTaJrx+BLFeLYGupTXPYiEWA6bT5weI0rIn2TBNHKQ1QD/WkA1+upZZUC7d/rLVF7GdzbgiJQCyCgeIuETkqrF1D5ywJ+W1pmHx5MzRG7XmXwQBjfmDHGRlUyiR2CfDkde0BOZFa4Esv8VQptDRoL2xcpgkjLiZWIb7MDI4qDMztib7UF8LDZowoujRrkgDysEA+1g1chkn5dHreAecMlJwUFyOoOiqqAvTTjrQrjkvvq6NJFeKFUj0L+KBaKOL3PSSo9hcH7+x16RCjxLxYLP3PHf8P+IxzPi82Z8DlrzzH8wDSWJlEF41//Q9s69Ib",
+                "origin": [
+                    0,
+                    0
+                ]
+            }
+        }
+    ]
+}
