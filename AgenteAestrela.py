@@ -159,12 +159,12 @@ class AE_SRZ:
         """Análise final de desempenho, custo e tempo abrangendo toda a jornada."""
         if not self.is_alive:
             self.score -= 1000
-            print(f"\n☠️ GAME OVER: Agente morreu na casa {self.pos}. Penalidade: -1000")
+            print(f"\nGAME OVER: Agente morreu na casa {self.pos}. Penalidade: -1000")
         else:
             self.registrar_acao(CLIMB)
             if self.has_gold and self.pos == (1, 1):
                 self.score += 1000
-                print("\n🏆 VITÓRIA: Ouro coletado e saída realizada! Recompensa: +1000")
+                print("\nVITÓRIA: Ouro coletado e saída realizada! Recompensa: +1000")
 
         tempo_total = (time.perf_counter() - self.start_time) * 1000
         print("\n" + "="*45)
@@ -199,7 +199,7 @@ if __name__ == "__main__":
                 risky_choice = random.choice(list(risky_cells))
                 agente.safe_cells.add(risky_choice)
                 agente.unvisited_safe.add(risky_choice)
-                print(f"\n⚠️ Sem caminhos 100% seguros! Agente AE_SRZ assume o risco de ir para {risky_choice}!")
+                print(f"\nSem caminhos 100% seguros! Agente AE_SRZ assume o risco de ir para {risky_choice}!")
             else:
                 break # Sem mais casas no mapa (raríssimo em 4x4)
 
