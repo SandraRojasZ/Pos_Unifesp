@@ -1,0 +1,77 @@
+% --- Representacao do Estado ---
+% O estado e uma sequencia ordenada [M, C, B]
+% M = Numero de missionarios na margem esquerda
+% C = Numero de canibais na margem esquerda
+% B = Margem onde esta o bote: 1 (esquerda) ou 0 (direita)
+
+% Estados Inicial e Final
+estado_inicial([3, 3, 1]).
+estado_final([0, 0, 0]). 
+
+% --- Regras de Validade ---
+% Garante que os missionarios nunca sejam devorados nas margens
+valido([M, C, _]) :-
+    M >= 0, M =< 3,
+    C >= 0, C =< 3,
+    % Margem Esquerda: Missionarios >= Canibais (ou 0 missionarios)
+    (M >= C ; M == 0),
+    M_dir is 3 - M,
+    C_dir is 3 - C,
+    % Margem Direita: Missionarios >= Canibais (ou 0 missionarios)
+    (M_dir >= C_dir ; M_dir == 0).
+
+% --- Operadores (Movimentos Possiveis do Bote) ---
+% formato: movimento(Qtd_Missionarios, Qtd_Canibais).
+% Restricoes aplicadas:
+% 1. Maximo de 3 pessoas no bote.
+% 2. M >= 1 (Pelo menos 1 Missionario sempre dirige).
+% 3. M >= C no bote (Canibais nao podem ser maioria no bote).
+movimento(1, 0).
+movimento(2, 0).
+movimento(3, 0).
+movimento(1, 1).
+movimento(2, 1).
+
+% --- Transicoes de Estado (Acoes) ---
+% Ida: Esquerda (1) para Direita (0)
+transicao([M1, C1, 1], [M2, C2, 0], ida(Mb, Cb)) :-
+    movimento(Mb, Cb),
+    M2 is M1 - Mb,
+    C2 is C1 - Cb,
+    valido([M2, C2, 0]).
+
+% Volta: Direita (0) para Esquerda (1)
+transicao([M1, C1, 0], [M2, C2, 1], volta(Mb, Cb)) :-
+    movimento(Mb, Cb),
+    M2 is M1 + Mb,
+    C2 is C1 + Cb,
+    valido([M2, C2, 1]).
+
+% --- Algoritmo de Busca Cega (DFS) ---
+% Condicao de parada: alcancou o estado final. 
+% O corte (!) garante a indicacao de uma unica solucao.
+busca(Estado, _, []) :-
+    estado_final(Estado), !.
+
+% Passo recursivo e deteccao de ciclos
+busca(EstadoAtual, Visitados, [Acao | ProximasAcoes]) :-
+    transicao(EstadoAtual, ProximoEstado, Acao),
+    \+ member(ProximoEstado, Visitados), % Evita caminhos infinitos (loops)
+    busca(ProximoEstado, [ProximoEstado | Visitados], ProximasAcoes).
+
+% --- Predicado Principal ---
+resolver :-
+    estado_inicial(Inicial),
+    busca(Inicial, [Inicial], Caminho),
+    !, % Trava a arvore de busca para retornar so 1 resultado
+    write('--- SOLUCAO ENCONTRADA ---'), nl,
+    imprimir_caminho(Caminho).
+
+% --- Metodos Auxiliares de Impressao ---
+imprimir_caminho([]).
+imprimir_caminho([ida(M, C) | Resto]) :-
+    format('-> IDA:   ~w Missionario(s) e ~w Canibal(is)~n', [M, C]),
+    imprimir_caminho(Resto).
+imprimir_caminho([volta(M, C) | Resto]) :-
+    format('<- VOLTA: ~w Missionario(s) e ~w Canibal(is)~n', [M, C]),
+    imprimir_caminho(Resto).
