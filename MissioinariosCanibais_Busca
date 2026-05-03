@@ -1,5 +1,5 @@
 % --- Representacao do Estado ---
-% O estado e uma sequencia ordenada [M, C, L]
+% O estado e uma sequencia ordenada [M, C, B]
 % M = Numero de missionarios na margem esquerda
 % C = Numero de canibais na margem esquerda
 % B = Margem onde esta o bote: 1 (esquerda) ou 0 (direita)
@@ -34,17 +34,17 @@ movimento(2, 1).
 
 % --- Transicoes de Estado (Acoes) ---
 % Ida: Esquerda (1) para Direita (0)
-transicao([M1, C1, 1], [M2, C2, 0], ida(Ml, Cl)) :-
-    movimento(Ml, Cl),
-    M2 is M1 - Ml,
-    C2 is C1 - Cl,
+transicao([M1, C1, 1], [M2, C2, 0], ida(Mb, Cb)) :-
+    movimento(Mb, Cb),
+    M2 is M1 - Mb,
+    C2 is C1 - Cb,
     valido([M2, C2, 0]).
 
 % Volta: Direita (0) para Esquerda (1)
-transicao([M1, C1, 0], [M2, C2, 1], volta(Ml, Cl)) :-
-    movimento(Ml, Cl),
-    M2 is M1 + Ml,
-    C2 is C1 + Cl,
+transicao([M1, C1, 0], [M2, C2, 1], volta(Mb, Cb)) :-
+    movimento(Mb, Cb),
+    M2 is M1 + Mb,
+    C2 is C1 + Cb,
     valido([M2, C2, 1]).
 
 % --- Algoritmo de Busca Cega (DFS) ---
